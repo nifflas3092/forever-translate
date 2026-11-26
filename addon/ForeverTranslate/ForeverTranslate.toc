@@ -1,0 +1,10 @@
+## Interface: 16001
+## Title: Forever Translate
+## Notes: English hints for foreign WoW chat slang, plus full translation with the free Forever Translate desktop app.
+## Author: Khabana
+## Version: 0.1.0
+## SavedVariables: ForeverTranslateDB
+
+Encoder.lua
+Gloss.lua
+ForeverTranslate.lua

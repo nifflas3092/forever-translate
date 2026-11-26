@@ -1,0 +1,9 @@
+# personal settings and API keys never go into the repository
+app/config.json
+config.json
+.venv/
+__pycache__/
+build/
+dist/
+*.spec
+*.log
