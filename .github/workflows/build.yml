@@ -43,9 +43,11 @@ jobs:
       - name: Checksums
         shell: pwsh
         run: |
-          Get-ChildItem dist -File | ForEach-Object {
+          $files = @(Get-ChildItem dist -File)
+          $lines = $files | ForEach-Object {
             "$((Get-FileHash $_.FullName -Algorithm SHA256).Hash.ToLower())  $($_.Name)"
-          } | Out-File -Encoding ascii dist/SHA256SUMS.txt
+          }
+          $lines | Out-File -Encoding ascii dist/SHA256SUMS.txt
           Get-Content dist/SHA256SUMS.txt
 
       - uses: actions/upload-artifact@v4
