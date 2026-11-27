@@ -60,7 +60,7 @@ def set_app_id():
 
 
 def set_window_icon(root):
-    """The rune icon on the title bar and taskbar."""
+    """The tome-and-quill icon on the title bar and taskbar."""
     try:
         if sys.platform == "win32":
             root.iconbitmap(default=os.path.join(RESOURCES, "assets", "icon.ico"))
