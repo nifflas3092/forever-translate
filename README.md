@@ -2,6 +2,10 @@
 
 Read and answer World of Warcraft: Forever chat in any language.
 
+**Get the addon on [CurseForge](https://www.curseforge.com/wow/addons/forever-translate)** ·
+**Download the Windows app from [Releases](../../releases)** ·
+**[Watch it in action](https://www.youtube.com/shorts/JIp8bgGzddc)**
+
 Forever Translate has two parts:
 
 - **The addon** (on CurseForge). On its own, it adds short grey English hints
@@ -20,7 +24,8 @@ and never types or clicks in the game.
 
 ## Install
 
-1. Install the **Forever Translate** addon from CurseForge, or copy
+1. Install the **Forever Translate** addon from
+   [CurseForge](https://www.curseforge.com/wow/addons/forever-translate), or copy
    `addon/ForeverTranslate` into
    `World of Warcraft\_forever_\Interface\AddOns\`.
 2. Download `ForeverTranslate.exe` from the latest
